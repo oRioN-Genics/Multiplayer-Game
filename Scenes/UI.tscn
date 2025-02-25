@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b2l4wr4m0vvqj"]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="Gold" type="Label" parent="."]
+offset_left = 1821.0
+offset_top = 15.0
+offset_right = 1861.0
+offset_bottom = 38.0
+scale = Vector2(2, 2)
+theme_override_colors/font_color = Color(0.961832, 0.871473, 0.342782, 1)
+theme_override_colors/font_outline_color = Color(0.859799, 1, 0.428974, 1)
+text = "0
+"

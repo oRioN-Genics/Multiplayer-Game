@@ -1,0 +1,184 @@
+[gd_scene load_steps=6 format=3 uid="uid://dhyb3sn6uvmsa"]
+
+[ext_resource type="Script" path="res://Scripts/CardManager.gd" id="1_dwgo5"]
+[ext_resource type="PackedScene" uid="uid://d0xlgi6ywib8d" path="res://Scenes/CardSlot.tscn" id="3_cdyun"]
+[ext_resource type="PackedScene" uid="uid://ui5jxdb0t77h" path="res://Scenes/Store.tscn" id="4_afdfu"]
+[ext_resource type="PackedScene" uid="uid://cdwusvaawlnca" path="res://Scenes/BenchSlot.tscn" id="6_iyvjs"]
+[ext_resource type="Script" path="res://Scripts/BenchSlot.gd" id="7_w21jn"]
+
+[node name="Main" type="Node2D"]
+
+[node name="CardManager" type="Node2D" parent="."]
+script = ExtResource("1_dwgo5")
+
+[node name="CardSlots" type="Node2D" parent="."]
+z_index = -2
+
+[node name="CardSlot" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1045, 972)
+
+[node name="CardSlot2" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(885, 972)
+
+[node name="CardSlot3" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(725, 972)
+
+[node name="CardSlot4" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(565, 972)
+
+[node name="CardSlot5" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(405, 972)
+
+[node name="CardSlot6" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1205, 972)
+
+[node name="CardSlot7" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1365, 972)
+
+[node name="CardSlot8" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1525, 972)
+
+[node name="CardSlot9" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1045, 812)
+
+[node name="CardSlot10" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(885, 812)
+
+[node name="CardSlot11" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(725, 812)
+
+[node name="CardSlot12" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(565, 812)
+
+[node name="CardSlot13" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(405, 812)
+
+[node name="CardSlot14" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1205, 812)
+
+[node name="CardSlot15" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1365, 812)
+
+[node name="CardSlot16" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1525, 812)
+
+[node name="CardSlot17" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1045, 652)
+
+[node name="CardSlot18" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(885, 652)
+
+[node name="CardSlot19" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(725, 652)
+
+[node name="CardSlot20" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(565, 652)
+
+[node name="CardSlot21" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(405, 652)
+
+[node name="CardSlot22" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1205, 652)
+
+[node name="CardSlot23" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1365, 652)
+
+[node name="CardSlot24" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1525, 652)
+
+[node name="CardSlot25" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1045, 492)
+
+[node name="CardSlot26" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(885, 492)
+
+[node name="CardSlot27" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(725, 492)
+
+[node name="CardSlot28" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(565, 492)
+
+[node name="CardSlot29" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(405, 492)
+
+[node name="CardSlot30" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1205, 492)
+
+[node name="CardSlot31" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1365, 492)
+
+[node name="CardSlot32" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1525, 492)
+
+[node name="CardSlot33" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1045, 332)
+
+[node name="CardSlot34" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(885, 332)
+
+[node name="CardSlot35" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(725, 332)
+
+[node name="CardSlot36" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(565, 332)
+
+[node name="CardSlot37" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(405, 332)
+
+[node name="CardSlot38" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1205, 332)
+
+[node name="CardSlot39" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1365, 332)
+
+[node name="CardSlot40" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1525, 332)
+
+[node name="CardSlot41" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1045, 172)
+
+[node name="CardSlot42" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(885, 172)
+
+[node name="CardSlot43" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(725, 172)
+
+[node name="CardSlot44" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(565, 172)
+
+[node name="CardSlot45" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(405, 172)
+
+[node name="CardSlot46" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1205, 172)
+
+[node name="CardSlot47" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1365, 172)
+
+[node name="CardSlot48" parent="CardSlots" instance=ExtResource("3_cdyun")]
+position = Vector2(1525, 172)
+
+[node name="Store" parent="." instance=ExtResource("4_afdfu")]
+position = Vector2(1774, 39)
+
+[node name="BenchSlots" type="Node2D" parent="."]
+
+[node name="BenchSlot" parent="BenchSlots" instance=ExtResource("6_iyvjs")]
+position = Vector2(1869, 244)
+script = ExtResource("7_w21jn")
+
+[node name="BenchSlot2" parent="BenchSlots" instance=ExtResource("6_iyvjs")]
+position = Vector2(1869, 404)
+script = ExtResource("7_w21jn")
+
+[node name="BenchSlot3" parent="BenchSlots" instance=ExtResource("6_iyvjs")]
+position = Vector2(1869, 564)
+script = ExtResource("7_w21jn")
+
+[node name="BenchSlot4" parent="BenchSlots" instance=ExtResource("6_iyvjs")]
+position = Vector2(1869, 724)
+script = ExtResource("7_w21jn")
+
+[node name="BenchSlot5" parent="BenchSlots" instance=ExtResource("6_iyvjs")]
+position = Vector2(1869, 884)
+script = ExtResource("7_w21jn")
